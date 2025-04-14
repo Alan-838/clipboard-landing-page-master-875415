@@ -7,5 +7,23 @@
   <title>Frontend Mentor | Clipboard landing page</title>
 </head>
 <body>
+  <div id="header"></div>
+  <div id="companies"></div>
+  <div id="download"></div>
+  <div id="footer"></div>
+
+  <script>
+    async function cargarComponente(ruta, elemento) {
+      const respuesta = await fetch(ruta)
+      const html = await respuesta.text()
+
+      document.getElementById(elemento).outerHTML = html
+    }
+    cargarComponente('./components/header.html', 'header')
+    cargarComponente('./components/companies.html', 'companies')
+    cargarComponente('./components/download.html', 'download')
+    cargarComponente('./components/footer.html', 'footer')
+  </script>
+
 </body>
 </html>
