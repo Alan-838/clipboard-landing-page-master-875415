@@ -1,0 +1,39 @@
+#caracteristics{
+    border: solid red;
+    text-align: center;
+}
+#caracteristics h2{
+    font-size: 36px;
+    
+}
+.tools{
+    border: solid blue;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 35px;
+}
+.tools1, .tools2, .tools3{
+    border: solid black;
+    width: 55vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tools p{
+    font-size: 16px;
+}
+.tools h3{
+    font-size: 22px;
+}
+#caracteristics h2, .tools1 h3, .tools2 h3, .tools3 h3{
+    color: var(--Dark-Grayish-Blue);
+}
+.tools1 p, .tools2 p, .tools3 p{
+    color: var(--Grayish-Blue);
+}
+figure{
+    height: 1000px;
+}
