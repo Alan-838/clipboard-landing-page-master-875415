@@ -1,11 +1,38 @@
-@media (min-width: 1222px) {
-    .container-footer1 {
-        padding-right: 220px;
+@media (max-width: 1023px) {
+    .footer-grandson{
+        margin: auto
+    }
+    .container-footer2{
+        margin: auto;
     }
 }
-@media (max-width: 425px){
-    .container-footer1 {
+@media(max-width:1200px) and (min-width:1024px) {
+    .footer-son{
+        gap: 20px;
+    }
+    .footer-grandson{
+        max-width: 80%;
+    }
+}
+@media (max-width: 767px){
+    .footer-son{
         flex-direction: column;
+        justify-content: center;
+    }
+    .footer-grandson{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 75%;
+    }
+    .container-footer1{
+        max-width: 90%;
+    }
+}
+@media (max-width: 590px){
+    .container-footer1{
+        flex-direction: column;
+        text-align: center;
     }
     .container-footer2 {
         margin-top: 10px;
@@ -16,39 +43,54 @@
 }
 footer{
     border: solid blue;
+    background-color: rgba(242, 243, 244);
     display: flex;
     justify-content: center;
-
-    /* display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap; */
 }
 .footer-son{
     border: solid brown;
-    width: 90%;
+    width: 75%;
+    max-width: 1000px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    
     flex-wrap: wrap;
+}
+.footer-grandson{
+    border: solid green;
+    display: flex;
+    width: 650px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+/* La imagen dentro de este contenedor estaba movida hacia la mano derecha, el margin right no funciono, parece
+que normalize creo un espacio, que al final lo elimine con el margin 0 */
+.container-footer0{
+    border: solid yellow;
+    display: flex;
+    width: 56px;
+    margin: 0;
+}
+.container-footer0 img{
+    border: solid violet;
+    width: 56px;
+    height: auto;
 }
 .container-footer1{
     border: solid red;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 600px;
+    width: 480px;
+    height: auto;
 }
 .footer1-1 p, .footer1-2 p, .footer1-3 p{
     color: var(--Dark-Grayish-Blue);
     font-weight: 400;
     font-size: 16px;
-    text-align: center;
-}
-.container-footer0 img{
-    border: solid violet;
-    height: 56px;
 }
 .container-footer2 {
     border: solid rebeccapurple;

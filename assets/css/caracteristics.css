@@ -1,3 +1,26 @@
+@media(min-width:1180px){
+    .tools{
+        gap: 35px;
+    }
+}
+@media(max-width:1179px) and (min-width:1024px) {
+    .tools{
+        gap: 30px;
+    }
+    .tools1, .tools2, .tools3{
+        max-width: 30%;
+    }
+}
+@media(max-width:1023px){
+    .tools{
+        gap: 24px;
+    }
+}
+@media(max-width:767px){
+    .tools1, .tools2, .tools3{
+        max-width: 90%;
+    }
+}
 #caracteristics{
     border: solid red;
     text-align: center;
@@ -13,11 +36,12 @@
     margin-top: 50px;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 35px;
+    /* gap: 35px; */
 }
 .tools1, .tools2, .tools3{
     border: solid black;
-    max-width: 360px;
+    /* max-width: 360px; */
+    width: 360px;
     height: auto;
     display: flex;
     flex-direction: column;
