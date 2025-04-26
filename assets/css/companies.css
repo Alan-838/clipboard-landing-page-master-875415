@@ -1,0 +1,60 @@
+@media (max-width: 1439px){
+    .companies-son{
+        max-width: 85%;
+    }
+}
+@media (min-width: 1024px) {
+    .companies-son{
+        justify-content: space-between;
+    }
+
+}
+@media (max-width: 1023px) and (min-width: 768px){
+    .companies-son{
+        justify-content: center;
+    }
+}
+@media (max-width: 767px){
+    .companies-son{
+        flex-direction: column;
+        margin: 20px 0;
+    }
+}
+
+#companies{
+    display: flex;
+    border: solid yellow;
+    justify-content: center;
+    margin: 0;
+    /* margin: 100px 0; */
+}
+.companies-son{
+    border: solid green;
+    width: 1146px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    gap: 30px;
+}
+.google{
+    width: 165px;
+    height: 49px;
+}
+.ibm{
+    width: 139px;
+    height: 51px;
+}
+.microsoft{
+    width: 161px;
+    height: 35px;
+}
+.hp{
+    width: 135px;
+    height: 56px;
+}
+.vertor-graphics{
+    width: 125px;
+    height: 30px;
+}
