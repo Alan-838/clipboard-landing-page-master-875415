@@ -1,0 +1,75 @@
+@media (min-width: 1024px){
+    .download-title{
+        max-width: 60%;
+    }
+    .download-buttons{
+        justify-content: center;
+        gap: 16px;
+    }
+    .download-buttons a{
+        max-width: 40%;
+    }
+}
+@media (max-width: 1023px) and (min-width: 768px){
+    .download-buttons{
+        justify-content: center;
+        gap: 16px;
+    }
+    .download-buttons a{
+        max-width: 50%;
+    }
+}
+@media (max-width: 767px){
+    .download-title{
+        max-width: 73%;
+    }
+    .download-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+#download{
+    border: solid green;
+}
+.download-title{
+    border: solid rebeccapurple;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+.download-title h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue);
+}
+.download-title p{
+    color: var(--Grayish-Blue);
+    line-height: 1.8;
+    font-size: 16px;
+}
+.download-buttons{
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+.download-buttons a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    width: 230px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download-iOS{
+    background-color: var(--Strong-Cyan);
+}
+.download-Mac{
+    background-color: var(--Light-Blue);
+}
