@@ -4,7 +4,6 @@
     }
     .download-buttons{
         justify-content: center;
-        gap: 16px;
     }
     .download-buttons a{
         max-width: 40%;
@@ -13,7 +12,6 @@
 @media (max-width: 1023px) and (min-width: 768px){
     .download-buttons{
         justify-content: center;
-        gap: 16px;
     }
     .download-buttons a{
         max-width: 50%;
@@ -55,6 +53,7 @@
     flex-wrap: wrap;
     align-items: center;
     margin-top: 10px;
+    gap: 16px;
 }
 .download-buttons a{
     font-size: 16px;
