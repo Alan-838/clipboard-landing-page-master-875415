@@ -1,0 +1,27 @@
+#description{
+    border: solid green;
+}
+.description-title{
+    border: solid gold;
+    text-align: center;
+    width: 640px;
+    margin: 0;
+    margin: auto;
+}
+.description-title h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.description-title h2, .description-ben-qs h3, .description-ben-iS h3, .description-ben-CH h3{
+    color: var(--Dark-Grayish-Blue);
+}
+.description-title p{
+    font-size: 16px;
+}
+.description-title p, .description-ben-qs p, .description-ben-iS p, .description-ben-CH p{
+    color: var(--Grayish-Blue);
+    line-height: 1.8;
+}
+.description-image-benefits{
+    display: flex;
+}

@@ -11,6 +11,7 @@
   <div id="header"></div>
 
   <main>
+    <div id="description"></div>
     <div id="accessibility"></div>
     <div id="caracteristics"></div>
     <div id="companies"></div>
@@ -27,6 +28,7 @@
       document.getElementById(elemento).outerHTML = html
     }
     cargarComponente('./components/header.html', 'header')
+    cargarComponente('./components/description.html', 'description')
     cargarComponente('./components/accessibility.html', 'accessibility')
     cargarComponente('./components/caracteristics.html', 'caracteristics')
     cargarComponente('./components/companies.html', 'companies')
