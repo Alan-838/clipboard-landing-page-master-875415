@@ -73,8 +73,6 @@
         
     }
     .description-image-benefits{
-        /* flex-direction: column;
-        align-items: center; */
         max-width: 100%;
     }
     .description-image img{
@@ -126,13 +124,9 @@
 .description-image{
     border: solid fuchsia;
     display: flex;
-    /* width: 715px;
-    height: auto; */
-
 }
 .description-image img{
     border: solid green;
-    /* Por ahora lo pondremos como comentario para experimentar */
     height: auto;
 }
 .description-benefits{
