@@ -1,3 +1,98 @@
+@media (min-width: 1550px){
+    .description-image-benefits{
+        justify-content: center;
+        max-width: 80%;
+        margin: auto;
+    }
+}
+@media (max-width: 1549px) and (min-width: 1366px){
+    .description-image-benefits{
+        justify-content: space-between;
+        max-width: 85%;
+    }
+    /* Cuando le ponemos el margin left negativo, el max width del description image benefits deja de funcionar */
+    .description-image{
+        margin-left: -40px;
+    }
+    .description-image img{
+        max-width: 100%;
+        width: 695px;
+    }
+}
+@media (max-width: 1365px) and (min-width: 1024px){
+    .description-image-benefits{
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .description-image{
+        margin-left: -40px;
+    }
+    /* Al bajar el max-width de la imagen se genera un espacio a la mano derecha, el cual no se puede desaparecer con el
+    padding, ni con el margin*/
+    .description-image img{
+        max-width: 100%;
+        /* width: 695px; */
+        width: 650px;
+    }
+    .description-benefits div{
+        max-width: 100%;
+    }
+}
+@media (max-width:1023px) and (min-width: 970px){
+    .description-image{
+        margin-left: -40px;
+    }
+    .description-image img{
+        max-width: 100%;
+        width: 600px;
+    }
+    .description-benefits div{
+        max-width: 100%;
+    }
+    .description-image-benefits{
+        max-width: 100%;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 969px) and (min-width: 768px){
+    .description-image img{
+        max-width: 100%;
+        width: 600px;
+    }
+    .description-benefits div{
+        max-width: 100%;
+    }
+    .description-image-benefits{
+        max-width: 100%;
+        justify-content: center;
+    }
+}
+@media (max-width: 767px){
+    .description-title{
+        max-width: 75%;
+        
+    }
+    .description-image-benefits{
+        /* flex-direction: column;
+        align-items: center; */
+        max-width: 100%;
+    }
+    .description-image img{
+        max-width: 100%;
+        width: 600px;
+        margin: auto;
+    }
+    .description-benefits{
+        max-width: 100%;
+        margin: auto;
+    }
+    .description-benefits div{
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
 #description{
     border: solid green;
 }
@@ -24,4 +119,30 @@
 }
 .description-image-benefits{
     display: flex;
+    border: solid red;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+.description-image{
+    border: solid fuchsia;
+    display: flex;
+    /* width: 715px;
+    height: auto; */
+
+}
+.description-image img{
+    border: solid green;
+    /* Por ahora lo pondremos como comentario para experimentar */
+    height: auto;
+}
+.description-benefits{
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+}
+.description-benefits div{
+    border: solid pink;
+    width: 340px;
 }
