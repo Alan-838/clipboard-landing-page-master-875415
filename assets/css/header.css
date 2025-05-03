@@ -1,3 +1,93 @@
-header{
+@media (min-width: 1366px){
+    .header-buttons{
+        gap: 16px;
+    }
+    .header-buttons a{
+        max-width: 13%;
+        width: 350px;
+    }
+}
+@media (max-width: 1365px) and (min-width: 1024px){
+    .header-buttons{
+        gap: 16px;
+    }
+    .header-buttons a{
+        max-width: 18%;
+        width: 350px;
+    }
+}
+@media (max-width: 1023px) and (min-width: 767px) {
+    .header-buttons{
+        gap: 16px;
+    }
+    .header-buttons a{
+        max-width: 22%;
+        width: 350px;
+    }
+}
+@media (max-width: 767px) {
+    .header-title{
+        max-width: 83%;
+    }
+    .header-buttons{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .header-buttons a{
+        max-width: 84%;
+        width: 350px;
+    }
+}
+/* #header{
+    background-color: #fff;
+} */
+.header-container-image{
+    border: solid olive;
+    display: flex;
+}
+.header-image{
+    width: 125px;
+    height: auto;
+    margin: auto;
+}
+.header-title{
+    border: solid palevioletred;
+    margin: auto;
+    width: 550px;
+    text-align: center;
+}
+
+.header-title h1{
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 600;
+}
+.header-title p{
+    color: var(--Grayish-Blue);
+    font-size: 16px;
+    line-height: 1.8;
+}
+.header-buttons{
+    border: solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.header-buttons a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    /* width: 230px; */
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-button-iOS{
     background-color: var(--Strong-Cyan);
+}
+.header-button-Mac{
+    background-color: var(--Light-Blue);
 }
