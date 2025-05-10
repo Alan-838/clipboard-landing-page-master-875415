@@ -17,7 +17,7 @@
     align-items: center;
 }
 .accessibility-son{
-    border: solid brown;
+    /* border: solid brown; */
     width: 600px;
     text-align: center;
 }
@@ -37,8 +37,7 @@
     justify-content: center;
 }
 .accessibility-image{
-    border: solid green;
-    /* width: 905px; */
+    /* border: solid green; */
     width: 780px;
     height: auto;
 }
