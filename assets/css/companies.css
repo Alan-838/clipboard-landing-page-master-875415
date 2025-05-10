@@ -23,13 +23,13 @@
 
 #companies{
     display: flex;
-    border: solid yellow;
+    /* border: solid yellow; */
     justify-content: center;
     margin: 0;
     /* margin: 100px 0; */
 }
 .companies-son{
-    border: solid green;
+    /* border: solid green; */
     width: 1146px;
     height: auto;
     display: flex;
