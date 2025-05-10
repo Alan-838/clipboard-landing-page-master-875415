@@ -29,7 +29,8 @@
     }
 }
 #download{
-    border: solid green;
+    /* border: solid green; */
+    margin: 50px 0;
 }
 .download-title{
     border: solid rebeccapurple;
@@ -48,7 +49,7 @@
     font-size: 16px;
 }
 .download-buttons{
-    border: solid black;
+    /* border: solid black; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -65,10 +66,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 10px 20px -10px var(--Dark-Grayish-Blue);
+    cursor: pointer;
+    transition: background-color 0.1s linear;
 }
 .download-iOS{
     background-color: var(--Strong-Cyan);
 }
+.download-iOS:hover {
+    background-color: hsl(171, 66%, 54%);
+}
 .download-Mac{
     background-color: var(--Light-Blue);
+}
+.download-Mac:hover{
+    background-color: hsl(233, 100%, 79%);
 }

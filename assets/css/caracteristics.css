@@ -36,11 +36,9 @@
     margin-top: 50px;
     justify-content: center;
     flex-wrap: wrap;
-    /* gap: 35px; */
 }
 .tools1, .tools2, .tools3{
     border: solid black;
-    /* max-width: 360px; */
     width: 360px;
     height: auto;
     display: flex;

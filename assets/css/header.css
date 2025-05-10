@@ -108,6 +108,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 10px 20px -10px var(--Dark-Grayish-Blue);
+    cursor: pointer;
 }
 .header-button-iOS{
     background-color: var(--Strong-Cyan);
