@@ -63,7 +63,7 @@
     background-color: #fff;
 } */
 .header-container-image{
-    border: solid olive;
+    /* border: solid olive; */
     display: flex;
     width: 100%;
     margin: 0;
@@ -76,7 +76,7 @@
     margin: auto;
 }
 .header-title{
-    border: solid palevioletred;
+    /* border: solid palevioletred; */
     margin: auto;
     width: 550px;
     text-align: center;
@@ -92,7 +92,7 @@
     line-height: 1.8;
 }
 .header-buttons{
-    border: solid blue;
+    /* border: solid blue; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

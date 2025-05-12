@@ -42,14 +42,14 @@
     }
 }
 footer{
-    border: solid blue;
+    /* border: solid blue; */
     background-color: rgba(242, 243, 244);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .footer-son{
-    border: solid brown;
+    /* border: solid brown; */
     width: 75%;
     max-width: 1000px;
     display: flex;
@@ -59,7 +59,7 @@ footer{
     flex-wrap: wrap;
 }
 .footer-grandson{
-    border: solid green;
+    /* border: solid green; */
     display: flex;
     width: 650px;
     flex-wrap: wrap;
@@ -69,18 +69,18 @@ footer{
 /* La imagen dentro de este contenedor estaba movida hacia la mano derecha, el margin right no funciono, parece
 que normalize creo un espacio, que al final lo elimine con el margin 0 */
 .container-footer0{
-    border: solid yellow;
+    /* border: solid yellow; */
     display: flex;
     width: 56px;
     margin: 0;
 }
 .container-footer0 img{
-    border: solid violet;
+    /* border: solid violet; */
     width: 56px;
     height: auto;
 }
 .container-footer1{
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -93,7 +93,7 @@ que normalize creo un espacio, que al final lo elimine con el margin 0 */
     font-size: 16px;
 }
 .container-footer2 {
-    border: solid rebeccapurple;
+    /* border: solid rebeccapurple; */
     display: flex;
     height: 25px;
     gap: 20px;
