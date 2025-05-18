@@ -115,6 +115,12 @@
 .header-button-iOS{
     background-color: var(--Strong-Cyan);
 }
+.header-button-iOS:hover {
+    background-color: hsl(171, 66%, 54%);
+}
 .header-button-Mac{
     background-color: var(--Light-Blue);
+}
+.header-button-Mac:hover{
+    background-color: hsl(233, 100%, 79%);
 }
